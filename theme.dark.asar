@@ -1,0 +1,102 @@
+hd`{"files":{"background.svg":{"size":362,"offset":"0"},"black.svg":{"size":437,"offset":"362"},"corner-ne.svg":{"size":191,"offset":"799"},"corner-nw.svg":{"size":192,"offset":"990"},"corner-se.svg":{"size":190,"offset":"1182"},"corner-sw.svg":{"size":191,"offset":"1372"},"inner.svg":{"size":192,"offset":"1563"},"package.json":{"size":74,"offset":"1755"},"side-e.svg":{"size":191,"offset":"1829"},"side-n.svg":{"size":192,"offset":"2020"},"side-s.svg":{"size":191,"offset":"2212"},"side-w.svg":{"size":192,"offset":"2403"},"styles.css":{"size":1232,"offset":"2595"},"white.svg":{"size":157,"offset":"3827"}}}<?xml version="1.0"?>
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#000000" stroke="#000000" stroke-width="5" x="0" y="0" width="150" height="150" id="svg_1" stroke-opacity="0"/>
+ </g>
+</svg><?xml version="1.0"?>
+<svg width="43" height="43" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" fill="#000000" stroke="#000000" cx="21.5" cy="21.5" r="21"/>
+  <circle fill-opacity="0" id="svg_2" r="21" cy="21.5" cx="21.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="1.5" stroke="#ffffff" fill="#000000"/>
+ </g>
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="73" width="74" height="1" fill="#ffffff" />
+<rect x="73" y="73" width="1" height="77" fill="#ffffff" />
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="73" y="73" width="77" height="1" fill="#ffffff" />
+<rect x="73" y="73" width="1" height="77" fill="#ffffff" />
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="73" width="74" height="1" fill="#ffffff" />
+<rect x="73" y="0" width="1" height="74" fill="#ffffff" />
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="73" y="73" width="77" height="1" fill="#ffffff" />
+<rect x="73" y="0" width="1" height="74" fill="#ffffff" />
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="73" width="150" height="1" fill="#ffffff" />
+<rect x="73" y="0" width="1" height="150" fill="#ffffff" />
+</svg>{
+    "name": "dark",
+    "version": "0.1.0",
+    "author": "Brad Rose",
+    "main": "styles.css"
+}<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="73" width="74" height="1" fill="#ffffff" />
+<rect x="73" y="0" width="1" height="150" fill="#ffffff" />
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="73" width="150" height="1" fill="#ffffff" />
+<rect x="73" y="73" width="1" height="77" fill="#ffffff" />
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="73" width="150" height="1" fill="#ffffff" />
+<rect x="73" y="0" width="1" height="74" fill="#ffffff" />
+</svg><svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+<rect x="73" y="73" width="77" height="1" fill="#ffffff" />
+<rect x="73" y="0" width="1" height="150" fill="#ffffff" />
+</svg>/* edit stone images */
+.goban li.sign_1 .stone img {
+    background-image: url('theme_bw/black.svg');
+}
+.goban li.sign_-1 .stone img {
+    background-image: url('theme_bw/white.svg');
+}
+
+/* edit line images */
+.goban .row li {
+background: url('theme_bw/inner.svg') center;
+}
+.goban .row li.hoshi::after {
+background: #ffffff;
+}
+.goban .row:nth-child(3) li {
+background-image: url('theme_bw/side-n.svg');
+}
+.goban .row:nth-last-child(3) li {
+background-image: url('theme_bw/side-s.svg');
+}
+.goban .row li:first-child {
+background-image: url('theme_bw/side-w.svg');
+}
+.goban .row li:last-child {
+background-image: url('theme_bw/side-e.svg');
+}
+.goban .row:nth-child(3) li:first-child {
+background-image: url('theme_bw/corner-nw.svg');
+}
+.goban .row:nth-child(3) li:last-child {
+background-image: url('theme_bw/corner-ne.svg');
+}
+.goban .row:nth-last-child(3) li:first-child {
+background-image: url('theme_bw/corner-sw.svg');
+}
+.goban .row:nth-last-child(3) li:last-child {
+background-image: url('theme_bw/corner-se.svg');
+}
+
+/* edit goban */
+.goban {
+background-color: #000000;
+background-image: none;
+border: none;
+}
+
+/* edit image surrounding goban */
+main {
+background: #000000;
+}<svg width="43" height="43" xmlns="http://www.w3.org/2000/svg">
+
+<circle r="21" cy="21.5" cx="21.5" stroke-width="1" stroke="#000000" fill="#FFFFFF"/>
+</svg>
